@@ -5,8 +5,8 @@ n3 = float(input("Nota 3: "))
 media = (n1+n2+n3)/3
 
 if media >=7:
-    print(f"PARABÉNS, ALUNO APROVADO : {media}\n")
+    print(f"PARABÉNS, ALUNO APROVADO : {media:/.1f}\n")
 elif media >=4:
-    print(f"O aluno está em RECUPERAÇÃO: {media}\n")
+    print(f"O aluno está em RECUPERAÇÃO: {media:,.1f}\n")
 else:
     print(f"Aluno REPROVADO : {media:,.1f}")
