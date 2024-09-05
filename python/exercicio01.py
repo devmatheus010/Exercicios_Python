@@ -1,0 +1,5 @@
+nome1 = input("Nome da primeira pessoa: ")
+nome2 = input("Nome da segunda pessoa: ")
+nome3 = input("Nome da terceira pessoa: ")
+print(f"Nomes: {nome1}, {nome2}, {nome3}.")
+print(f"Nome 1: {nome1}\nNome 2: {nome2}\nNome 3: {nome3} \n")
